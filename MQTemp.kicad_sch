@@ -7,7 +7,7 @@
   (title_block
     (title "MQTemp temperature sensor")
     (date "2022-08-11")
-    (rev "1.0")
+    (rev "2.0")
     (company "Mark")
     (comment 1 "Also measures input voltage (dividing it by 2 first)")
     (comment 2 "Reads onewire DS18B20 temperature sensor")
