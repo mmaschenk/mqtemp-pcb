@@ -511,11 +511,11 @@
 
   (no_connect (at 72.39 53.34) (uuid 0a147bf0-e592-4d03-b977-cf9675e35edb))
   (no_connect (at 52.07 43.18) (uuid 1fbf0508-63aa-45b9-a31c-53db09dbf1b3))
+  (no_connect (at 59.69 22.86) (uuid 2286497e-93ff-4a80-955e-f8649b472650))
   (no_connect (at 72.39 43.18) (uuid 3400845b-bf2d-4783-9f47-54210b187c55))
   (no_connect (at 72.39 35.56) (uuid 5d4b3362-19d0-4aac-9d4c-e2fc85ab86e4))
   (no_connect (at 72.39 38.1) (uuid 8905ccbe-8224-4a79-b20d-40d457b30fd0))
   (no_connect (at 52.07 40.64) (uuid bd5c9a09-ed2e-4900-8f6d-cc38f12ccc7d))
-  (no_connect (at 64.77 22.86) (uuid bfa53ada-acc4-4d24-ac66-f61e05a510f6))
   (no_connect (at 72.39 50.8) (uuid c5e21687-57bc-4dad-98ae-b9336f17eb07))
   (no_connect (at 72.39 40.64) (uuid e44e6d29-b13b-48a5-a75d-d33822ff5892))
 
@@ -612,7 +612,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c946669d-cb87-450c-bee7-ae3ab7dc0d3b)
   )
-  (label "VCC" (at 59.69 22.86 0)
+  (label "VCC" (at 64.77 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ddffbb73-69be-411d-98ee-15c09ba14505)
   )
@@ -727,7 +727,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062f50d76)
     (property "Reference" "R3" (id 0) (at 137.16 36.6522 90))
-    (property "Value" "4k7" (id 1) (at 137.16 38.9636 90))
+    (property "Value" "3k3" (id 1) (at 137.16 38.9636 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 137.16 40.132 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -862,7 +862,7 @@
       (reference "R2") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000062f50d76"
-      (reference "R3") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R3") (unit 1) (value "3k3") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000062f51351"
       (reference "R4") (unit 1) (value "18k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
